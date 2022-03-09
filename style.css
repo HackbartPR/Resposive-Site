@@ -628,13 +628,58 @@ footer {
     padding-top: 7rem;
     padding-bottom: 7rem;
   }
+
+  /* ======= HOME SECTION ======= */
+  #divHome.grid {
+    grid-auto-flow: column;
+
+    gap: 4.5rem;
+  }
+
+  #divImageHome {
+    width: 24rem;
+
+    order: 2;
+  }
+
+  #divTextHome {
+    order: 1;
+
+    margin-left: 3rem;
+
+    text-align: left;
+  }
+
+  #divTextHome > h1 {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+
+  #divTextHome > p {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+
+  /* ======= ABOUT SECTION ======= */
+  #divAbout.container {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  #divTextAbout {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
-@media (min-width: 1300px) {
+
+@media (min-width: 1200px) {
   /* ======= VARIABLES======= */
   :root {
     --buttonHome-widht: 13.625rem;
 
     --card-padding: 3.625rem 3rem 3.625rem 3rem;
+
+    --swiper-navigation-size: 22px !important;
   }
 
   /* ======= GLOBAL TAGS ======= */

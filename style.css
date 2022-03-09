@@ -774,4 +774,23 @@ footer {
     margin-left: 1rem;
     margin-right: 7.6875rem;
   }
+
+  /* ======= CONTACT SECTION ======= */
+}
+#divContact.grid {
+  grid-auto-flow: column;
+  gap: 16.75rem;
+}
+
+#divTextContact {
+  width: 25.25rem;
+}
+
+#divTextContact > p {
+  margin-top: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+#divAddressContact.grid {
+  align-content: center;
 }

@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
   })
   //CRIAR FUNÇÃO PARA ABRIR OU FECHAR OS LINKS DO MENU
   const buttonsCloseMenu = document.querySelectorAll('.closeMenu')
-  buttonsToggleMenu.forEach((element) => {
+  buttonsCloseMenu.forEach((element) => {
     element.addEventListener('click', closeMenu)
   })
 

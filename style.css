@@ -617,7 +617,18 @@ footer {
 /* LARGER DEVICES: 1023 >  */
 /* LARGER DEVICES: 992 >  */
 /* MEDIUM DEVICES: 767 >  */
+@media (min-width: 767px) {
+  /* ======= GLOBAL CLASSES ======= */
+  .container {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
 
+  .sectionPadding {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+}
 @media (min-width: 1300px) {
   /* ======= VARIABLES======= */
   :root {

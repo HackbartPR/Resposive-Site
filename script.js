@@ -56,6 +56,7 @@ const swiper = new Swiper('.swiper', {
     767: {
       slidesPerView: 2,
       setWrapperSize: true,
+      slidesPerGroup: 2,
     },
   },
 })

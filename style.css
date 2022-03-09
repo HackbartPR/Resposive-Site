@@ -765,8 +765,13 @@ footer {
     margin-right: 7.6875rem;
   }
 
-  .swiper-wrapper blockquote {
+  .swiper-slide:nth-child(2n + 1) blockquote {
     margin-left: 7.6875rem;
+    margin-right: 1rem;
+  }
+
+  .swiper-slide:nth-child(2n) blockquote {
+    margin-left: 1rem;
     margin-right: 7.6875rem;
   }
 }

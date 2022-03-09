@@ -610,7 +610,7 @@ footer {
 /* LARGER DEVICES: 992 >  */
 /* MEDIUM DEVICES: 767 >  */
 
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
   /* ======= VARIABLES======= */
   :root {
     --buttonHome-widht: 13.625rem;
@@ -776,21 +776,41 @@ footer {
   }
 
   /* ======= CONTACT SECTION ======= */
-}
-#divContact.grid {
-  grid-auto-flow: column;
-  gap: 16.75rem;
-}
+  #divContact.grid {
+    grid-auto-flow: column;
+    gap: 16.75rem;
+  }
 
-#divTextContact {
-  width: 25.25rem;
-}
+  #divTextContact {
+    width: 25.25rem;
+  }
 
-#divTextContact > p {
-  margin-top: 0.75rem;
-  margin-bottom: 1.5rem;
-}
+  #divTextContact > p {
+    margin-top: 0.75rem;
+    margin-bottom: 1.5rem;
+  }
 
-#divAddressContact.grid {
-  align-content: center;
+  #divAddressContact.grid {
+    align-content: center;
+  }
+
+  /* ======= FOOTER ======= */
+  #divFooter.grid {
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
+
+    grid-auto-flow: column;
+
+    justify-content: space-between;
+
+    align-items: center;
+  }
+
+  #divTextFooter > a {
+    font: var(--poppins-700-30px);
+  }
+
+  #divTextFooter > div > p {
+    font: var(--dmSans-400-16px);
+  }
 }

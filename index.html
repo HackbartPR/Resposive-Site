@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!--LINK STYLE-->
+    <link rel="stylesheet" href="style.css" />
+    <!--FONTES-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--ICONES-->
+    <link href="./assets/icons/style.css" rel="stylesheet" />
+    <!--SWIPER-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!--HEADER-->
+    <header id="header">
+      <nav>
+        <div id="divHeader" class="container">
+          <a href="#" id="divLogo">beauty<span>salon</span>.</a>
+          <i id="iconMenuOpen" class="icon icon-menu toggleMenu"></i>
+          <i id="iconMenuClose" class="icon icon-close toggleMenu"></i>
+          <div id="headerMenu">
+            <ul>
+              <li><a href="#" class="closeMenu">Início</a></li>
+              <li><a href="#about" class="closeMenu">Sobre</a></li>
+              <li><a href="#services" class="closeMenu">Serviços</a></li>
+              <li>
+                <a href="#testimonials" class="closeMenu">Depoimentos</a>
+              </li>
+              <li><a href="#contact" class="closeMenu">Contato</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--MAIN-->
+    <main>
+      <!--SECTION HOME-->
+      <section id="home" class="sectionPadding">
+        <div id="divHome" class="container grid">
+          <div id="divImageHome">
+            <img
+              src="https://images.unsplash.com/photo-1562322140-8baeececf3df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+              alt="Cabelereira Trabalhando"
+            />
+          </div>
+          <div id="divTextHome">
+            <h1>Saúde natural para os seus cabelos</h1>
+            <p>
+              Um salão exclusivo em São Paulo, especializado em tratamentos
+              naturais.
+            </p>
+            <a href="#">Agendar um horário</a>
+          </div>
+        </div>
+      </section>
+      <!--DIVISOR-->
+      <div class="divisor"></div>
+      <!--SECTION ABOUT-->
+      <section id="about" class="sectionPadding">
+        <div id="divAbout" class="container grid">
+          <div id="divImageAbout">
+            <img
+              src="https://images.unsplash.com/photo-1559599101-f09722fb4948?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+              alt="Hairdressers"
+            />
+          </div>
+          <div id="divTextAbout">
+            <h1>Sobre nós</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse sagittis arcu quis nisi luctus, id accumsan felis
+              tristique. Proin quis bibendum diam. Sed consequat nisl laoreet
+              eros ultricies pellentesque. Nullam in est porta, pellentesque
+              massa vitae, vehicula risus.
+            </p>
+            <p>
+              In placerat, felis vitae sodales dictum, lacus quam pretium mi, ut
+              pretium urna turpis eu dui. Vestibulum id ullamcorper nibh. Donec
+              luctus, nunc finibus elementum suscipit, tortor augue vulputate
+              sapien, vitae feugiat enim augue sed.
+            </p>
+            <p>
+              Quisque id aliquam elit. Suspendisse congue pharetra maximus. Duis
+              rutrum velit a leo euismod dictum. Sed sodales est efficitur arcu
+              tincidunt tincidunt. Curabitur fringilla, risus at feugiat
+              feugiat, nisl nulla tincidunt tellus, elementum elementum lorem
+              nisl eleifend dolor. Nullam eget dui at sem ullamcorper luctus.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--DIVISOR-->
+      <div class="divisor"></div>
+      <!--SECTION SERVICES-->
+      <section id="services" class="sectionPadding">
+        <div id="divServices" class="container grid">
+          <div id="divTextServices">
+            <h1>Serviços</h1>
+            <h3>
+              Com mais de 10 anos no mercado, o
+              <span><strong>Beautysalon</strong></span> já conquistou clientes
+              de inúmeros países com seus tratamentos exclusivos e totalmente
+              naturais
+            </h3>
+          </div>
+          <div id="divCards">
+            <ul class="grid">
+              <li class="card">
+                <i href="" class="iconCard icon-woman-hair"></i>
+                <h2>Terapia capilar</h2>
+                <p>
+                  Terapia completa para couro cabeludo e fios, protegendo todos
+                  os tipos de cabelos, inclusive os longos e finos.
+                </p>
+              </li>
+              <li class="card">
+                <i href="" class="iconCard icon-trim"></i>
+                <h2>Cortes</h2>
+                <p>
+                  A nossa equipe é repleta de profissionais renomados, famosos
+                  por lançarem tendências com cortes diferenciados e clássicos.
+                </p>
+              </li>
+              <li class="card">
+                <i href="" class="iconCard icon-cosmetic"></i>
+                <h2>Tratamentos</h2>
+                <p>
+                  O beautysalon conta com diversos tratamentos naturais e
+                  totalmente veganos, para qualquer tipo de cabelo.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!--DIVISOR-->
+      <div class="divisor"></div>
+      <!--SECTION TESTIMONIALS-->
+      <section id="testimonials" class="sectionPadding">
+        <div id="divTextTestimonials">
+          <h1>Depoimentos de quem já passou por aqui</h1>
+        </div>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <blockquote>
+                <span>&ldquo;</span>
+                <h3>
+                  Eu sou cliente do Beautysalon há 5 anos e não troco por nada!
+                  Certamente meu cabelo mudou muito depois que comecei a tratar
+                  somente com produtos naturais e veganos. São profissionais
+                  incríveis e qualificados.
+                </h3>
+                <cite>
+                  <img
+                    src="https://randomuser.me/api/portraits/women/17.jpg"
+                    alt="Woman 1"
+                  />
+                  Wanessa Souza
+                </cite>
+              </blockquote>
+            </div>
+
+            <div class="swiper-slide">
+              <blockquote>
+                <span>&ldquo;</span>
+                <h3>
+                  Minha mãe frequenta o salão há anos e me levou um dia para
+                  conhecer. Minha experiência foi incrível, eu continuo fazendo
+                  o a terapia capilar e isso salvou o meu cabelo. Adoro todos os
+                  profissionais do Beautysalon.
+                </h3>
+                <cite>
+                  <img
+                    src="https://randomuser.me/api/portraits/women/30.jpg"
+                    alt="Woman 2"
+                  />
+                  Luna Falcão
+                </cite>
+              </blockquote>
+            </div>
+
+            <div class="swiper-slide">
+              <blockquote>
+                <span>&ldquo;</span>
+                <h3>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo
+                  similique iusto perferendis sunt explicabo debitis nulla
+                  ducimus eaque placeat modi, eveniet alias, pariatur quia in,
+                  incidunt neque error beatae cumque?
+                </h3>
+                <cite>
+                  <img
+                    src="https://randomuser.me/api/portraits/women/65.jpg"
+                    alt="Woman 3"
+                  />
+                  Maria Duts
+                </cite>
+              </blockquote>
+            </div>
+
+            <div class="swiper-slide">
+              <blockquote>
+                <span>&ldquo;</span>
+                <h3>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Deserunt, deleniti itaque quas perferendis aliquid nostrum,
+                  soluta, iusto quaerat aliquam impedit consequuntur voluptate!
+                </h3>
+                <cite>
+                  <img
+                    src="https://randomuser.me/api/portraits/women/24.jpg"
+                    alt="Woman 4"
+                  />
+                  Joana Neto
+                </cite>
+              </blockquote>
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+      <!--DIVISOR-->
+      <div class="divisor"></div>
+      <section id="contact" class="sectionPadding">
+        <div id="divContact" class="container grid">
+          <div id="divTextContact">
+            <h1>Entre em contato com a gente!</h1>
+            <p>
+              Entre em contato com a Beautysalon, queremos tirar suas dúvidas,
+              ouvir suas críticas e sugestões.
+            </p>
+            <a
+              href="https://api.whatsapp.com/send?phone=+5545991514356&text=Gostaria de reservar um horário"
+              target="_blank"
+            >
+              <i class="icon-whatsapp icon"></i>
+              Entrar em contato
+            </a>
+          </div>
+          <div id="divAddressContact" class="grid">
+            <div><i class="icon icon-phone"></i><span>45 991514356</span></div>
+            <div>
+              <i class="icon icon-map-pin"></i><span>R. Amauri Souza, 346</span>
+            </div>
+            <div>
+              <i class="icon icon-mail"></i><span>contato@beautysalon.com</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--DIVISOR-->
+      <div class="divisor"></div>
+    </main>
+    <!--FOOTER-->
+    <footer>
+      <div id="divFooter" class="grid container">
+        <div id="divTextFooter" class="grid">
+          <a href="#" id="divLogo">beauty<span>salon</span>.</a>
+          <div class="grid">
+            <p>©2021 Beautysalon.</p>
+            <p>Todos os direitos reservados.</p>
+          </div>
+        </div>
+        <div id="divAddressFooter" class="grid">
+          <a
+            href="https://www.instagram.com/carlosguilherme.hackbart/"
+            target="_blank"
+            ><i class="icon icon-instagram"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/carlosguilherme.hackbart"
+            target="_blank"
+            ><i class="icon icon-facebook"></i
+          ></a>
+          <a href="https://www.youtube.com/" target="_blank"
+            ><i class="icon icon-youtube"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <!--BUTON BACK-TO-TOP-->
+    <a href="#" id="buttonBackToTop" class=""
+      ><i class="icon icon-arrow-up"></i
+    ></a>
+    <!--SCRIPTS-->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

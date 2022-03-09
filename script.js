@@ -27,6 +27,27 @@ document.addEventListener('DOMContentLoaded', () => {
     scrollHeight > homeHeight
       ? buttonBackToTop.classList.add('show')
       : buttonBackToTop.classList.remove('show')
+
+    //ATIVAR OS LINKS MENU QUANDO A SEÇÃO ESTIVER EM FOCUS
+    const checkPoint = window.scrollY + 150
+    const sections = document.querySelectorAll('main section[id]')
+
+    sections.forEach((section) => {
+      let sectionTop = section.offsetTop
+      let sectionHeight = section.offsetHeight
+      let sectionBottom = sectionTop + sectionHeight - 200
+      let sectionId = section.getAttribute('id')
+
+      if (checkPoint >= sectionTop && checkPoint <= sectionBottom) {
+        document
+          .querySelector('#headerMenu ul li a[href*=' + sectionId + ']')
+          .classList.add('onFocus')
+      } else {
+        document
+          .querySelector('#headerMenu > ul > li a[href*=' + sectionId + ']')
+          .classList.remove('onFocus')
+      }
+    })
   })
 })
 

@@ -215,6 +215,14 @@ header.shadow {
   transition: 0.3s;
 }
 
+#headerMenu > ul > li > a.onFocus {
+  color: var(--primary-color);
+}
+
+#headerMenu > ul > li > a.onFocus::after {
+  width: 100%;
+}
+
 #headerMenu > ul > li > a:hover {
   color: var(--primary-color);
 }
